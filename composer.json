@@ -1,0 +1,27 @@
+{
+    "name": "huami-cloud/bce-sdk-php",
+    "description": "Baidu Bce Support",
+    "authors": [
+        {
+            "name": "HFEx",
+            "email": "hfex@huami.com",
+            "homepage": "http://www.huami.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaiduBceSupport\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BaiduBceSupport\\BaiduBceServiceProvider"
+            ]
+        }
+    }
+}
